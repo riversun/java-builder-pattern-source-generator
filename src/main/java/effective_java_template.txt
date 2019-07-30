@@ -1,0 +1,36 @@
+package //PACKAGE_NAME//;
+
+//IMPORTS//
+
+public class //CLASS_NAME// {
+
+//CLASS_FIELDS//
+	public static class Builder {
+	
+//BUILDER_FIELDS//
+		public Builder() {	
+		}
+		
+		Builder(//BUILDER_CONSTRUCTOR//) {	
+//BUILDER_INITIALIZERS//			
+		}
+		
+//BUILDER_SETTERS//
+		public //CLASS_NAME// build() {
+		
+			if (//NULL_FIELD_CHECKER//) {
+				throw new NullPointerException();
+			}
+			
+			return new //CLASS_NAME//(this);
+		}
+	}
+
+	private //CLASS_NAME//(Builder builder) {
+//CLASS_INITIALIZERS//	
+	}
+
+	public void doSomething() {
+		// do something
+	}
+}
